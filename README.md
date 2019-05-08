@@ -10,4 +10,4 @@ A special thanks to @aothms for enabling us with direct help and creating an awe
 
 The model that will be used in this course is the well know Grethes Hus, as illustrated below:
 
-![jupyterhub Grethes Hus screen-shot](/images/Grethes Hus in jupyter.png)
+![jupyterhub Grethes Hus screen-shot](/images/Grethes-Hus-in-jupyter.png)
