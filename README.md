@@ -1,4 +1,4 @@
-# This is a repository of material for a basic course in python for use with BIM
+# Material for a basic course in python for use with BIM
 
 It is a course over two days of 4 hours each, and students is expected work in between.
 
