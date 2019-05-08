@@ -2,9 +2,9 @@
 
 It is a course over two days of 4 hours each, and students is expected work in between.
 
-Course lecturers: @SigveMartin and @hansmei
+Course lecturers: [@SigveMartin](https://github.com/SigveMartin) and [@hansmei](https://github.com/hansmei)
 
-A special thanks to @aothms for enabling us with direct help and creating an awesome opensource community. Day one of the course will use several opensource components, and especially @ifcopeshell in jupytherhub setup. Everyone could setup their own jupytherhub by following @aothms guide here: [IfcOpenShell/ifcopenshell-jupyterhub](https://github.com/IfcOpenShell/ifcopenshell-jupyterhub). Illustrated below.
+A special thanks to [@aothms](https://github.com/aothms)for enabling us with direct help and creating an awesome opensource community. Day one of the course will use several opensource components, and especially @ifcopeshell in jupytherhub setup. Everyone could setup their own jupytherhub by following @aothms guide here: [IfcOpenShell/ifcopenshell-jupyterhub](https://github.com/IfcOpenShell/ifcopenshell-jupyterhub). Illustrated below.
 
 ![jupyterhub IfcOpenShell pythonOCC screen-shot](https://raw.githubusercontent.com/IfcOpenShell/ifcopenshell-jupyterhub/master/static/screenshot.png)
 
