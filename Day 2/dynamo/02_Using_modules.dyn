@@ -1,0 +1,120 @@
+{
+  "Uuid": "3c9d0464-8643-5ffe-96e5-ab1769818209",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "02_Sorting_with_module",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "# This is the magic that allows you to import most regular CPython libraries\r\nimport sys\r\nsys.path.append(r'C:\\Program Files(x86)\\IronPython 2.7\\Lib')\r\n\r\n# Im not sure this is needed, i suddenly did need it for reasons unknown\r\nsys.path.append(r'C:\\Python27\\Lib') \r\n\r\n# Now we can import the os module\r\nimport os\r\n\r\n# This is what goes to the output\r\nOUT = os.listdir(r'C:\\Program Files')",
+      "VariableInputPorts": true,
+      "Id": "579626fada614eec98a3946b535577fe",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "b85b7b4736a946719bb9ebe303970604",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "3d91f8d274134b9db5c713be746125e9",
+      "Inputs": [
+        {
+          "Id": "96493f667a79437cae1b8e2681bc49bb",
+          "Name": "",
+          "Description": "Node to evaluate.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "24966f3dfc3045b4beccc7d1a1f44285",
+          "Name": "",
+          "Description": "Watch contents.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualize the output of node."
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "b85b7b4736a946719bb9ebe303970604",
+      "End": "96493f667a79437cae1b8e2681bc49bb",
+      "Id": "952e2965435d4a97aea1f50feb6578fb"
+    }
+  ],
+  "Dependencies": [],
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.0.2.6826",
+      "RunType": "Automatic",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": 2.6476700755464626,
+      "EyeY": 3.19119322340955,
+      "EyeZ": 1.5136317771082559,
+      "LookX": -2.2077919324205877,
+      "LookY": -5.19119950213851,
+      "LookZ": -3.7765743061500276,
+      "UpX": -0.30723447365830664,
+      "UpY": 0.79335334029123661,
+      "UpZ": -0.52554491306133222
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "Python Script",
+        "Id": "579626fada614eec98a3946b535577fe",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1274.4525615485866,
+        "Y": 641.630295287714
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Watch",
+        "Id": "3d91f8d274134b9db5c713be746125e9",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1449.6113311457111,
+        "Y": 640.54846104610851
+      }
+    ],
+    "Annotations": [],
+    "X": -1319.076565505502,
+    "Y": -866.8877815356982,
+    "Zoom": 1.4935925324203292
+  }
+}

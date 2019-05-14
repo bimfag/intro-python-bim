@@ -90,4 +90,4 @@ def changeWallToProduct(ifc_in,ifc_out):
                     addObjectToRelAss(new_elem,rel_ass_obj)
             f.write(ifc_out)
 
-changeWallToProduct("input/Grethes-hus-bok-2.ifc", "output/Edited_Grethes_hus.ifc")
+changeWallToProduct("../Model/Grethes-hus-bok-2.ifc", "output/Edited_Grethes_hus.ifc")
