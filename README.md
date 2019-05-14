@@ -19,12 +19,12 @@ In day 2 we will cover basics on how to set up Python 3.7 on your own machine, a
 
 We might cover the following cases:
 - Writing and modifying PDFs
-- Working with matplotlib to create nice graphs and present data
 - Continued work with the IFC format: modifying and writing IFC files
 - Implementing your own Python script in Dynamo for Revit
+- Working with matplotlib to create nice graphs and present data
 
 Learning goals for this session:
 - Writing your own functions
 - Getting familiar with using other peoples code (modules and libraries)
-- Understanding modules
 - Using modules inside other applications (Dynamo for Revit)
+- How to fish: getting what you need when you need it
